@@ -1,31 +1,97 @@
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+* {
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
 }
 
-input[type=text] {
-    display: block;
-    width: 75%;
-    height: 44px;
-    padding: 12px 20px;
-    margin: 25px auto 15px auto;
-    box-sizing: border-box;
-    border: 1px solid #dddddd;
-    box-shadow: 0.5px 1px 3px #dfdfdf;
-}
-
-.container {
-    display: block;
-}
-
-#logo {
+.mainBlock {
     margin: auto;
-    padding: 100px;
+    width: 550px;
+    padding-top: 160px;
+}
+
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    text-rendering: auto;
+    color: initial;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    font: 400 13.3333px Arial;
+    outline: none;
+    width: 90%;
+    padding: 12px;
+    font-size: 18px;
+    border: 0px;
+}
+
+div {
+    display: block;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+head {
+    display: none;
+}
+
+html {
+    display: block;
+    height: 100%;
 }
 
 #searchform {
-    margin: auto;
-    text-align: center;
-    width: 1000px;
+    border: 1px;
+    border-color: #f2f2f2;
+    box-shadow: 1px 1px 5px grey;
+}
+
+#searchform:hover {
+    border: 2px;
+    border-color: grey;
+    box-shadow: 2px 2px 5px grey;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+#click {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .87);
+    font-size: 13px;
+}
+
+#mic {
+    position: relative;
+    left: -2%;
+    vertical-align: middle;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: white;
+    text-decoration: none;
 }
